@@ -24,7 +24,7 @@ export const SITE = {
 	name: "appleflyer's blog",
 	title: "appleflyer's blog | astro-ink",
 	description: "simple blog. made with astro-ink.",
-	url: "https://astro-ink.vercel.app",
+	url: "https://appleflyers-blog.vercel.app/",
 	githubUrl: "https://github.com/appleflyer",
 	listDrafts: true,
 	image:
