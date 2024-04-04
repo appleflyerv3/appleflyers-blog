@@ -41,7 +41,7 @@ export const SITE = {
 	// Author: Twitter handler
 	authorTwitter: "", // Example: FredKSchott
 	// Author: Image external source
-	authorImage: "https://img.freepik.com/premium-vector/pixel-8-bit-cat-animal-game-assets-vector-illustration_614713-161.jpg?w=740", // Example: https://pbs.twimg.com/profile_images/1272979356529221632/sxvncugt_400x400.jpg, https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png
+	authorImage: "https://static.vecteezy.com/system/resources/previews/011/614/725/original/apple-pixel-illustration-of-8-bit-game-assets-vector.jpg", // Example: https://pbs.twimg.com/profile_images/1272979356529221632/sxvncugt_400x400.jpg, https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png
 	// Author: Bio
 	authorBio:
 		"flying apples for a living.",
