@@ -28,7 +28,7 @@ export const SITE = {
 	githubUrl: "https://github.com/appleflyer",
 	listDrafts: true,
 	image:
-		"https://img.freepik.com/premium-vector/pixel-8-bit-cat-animal-game-assets-vector-illustration_614713-161.jpg?w=740",
+		"https://static.vecteezy.com/system/resources/previews/011/614/725/original/apple-pixel-illustration-of-8-bit-game-assets-vector.jpg",
 	// YT video channel Id (used in media.astro)
 	ytChannelId: "",
 	// Optional, user/author settings (example)
