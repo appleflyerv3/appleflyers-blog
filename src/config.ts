@@ -29,10 +29,10 @@ export const SITE = {
 	title: "appleflyer's blog | astro-ink",
 	description: "simple blog. made with astro-ink.",
 	url: "https://astro-ink.vercel.app",
-	githubUrl: "https://github.com/one-aalam/astro-ink",
+	githubUrl: "https://github.com/appleflyer",
 	listDrafts: true,
 	image:
-		"https://raw.githubusercontent.com/one-aalam/astro-ink/main/public/astro-banner.png",
+		"https://img.freepik.com/premium-vector/pixel-8-bit-cat-animal-game-assets-vector-illustration_614713-161.jpg?w=740",
 	// YT video channel Id (used in media.astro)
 	ytChannelId: "",
 	// Optional, user/author settings (example)
