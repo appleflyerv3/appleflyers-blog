@@ -16,13 +16,12 @@ category: design
     Any damages made is your own fault. Not mine, or others.
 {% /callout %}
 
-## For this, you will be needing to BUY SOME ITEMS which cost about 10-15 dollars max on Amazon. If you don't want to buy items to deprovision your device, I suggest going to the SH1MMER discord server instead to look for other methods.
-
+## For this, you will be needing to BUY SOME ITEMS which cost about 10-15 dollars max on Amazon. If you don't want to buy items to deprovision your device, I suggest going to the SH1MMER discord server instead to look for other methods
 ________________________________________________________________________________________________________
 Hello! If you are reading this, you probably are interested in flashing the chromebook's chip probably because you want to unenroll it (the main purpose of this guide). I have decided to make this document because I took a really long while just to gather some information on chip flashing and so I have decided to share what I have found as a guide. 
 (personally i feel the pencil bypass is way riskier and requires a shim whereas this method doesn't require a shim and has less risk involved. nevertheless, it is still risky)
 ________________________________________________________________________________________________________
-## Necessary Materials and Files
+## Step 1: Obtaining Necessary Materials and Files
 ### Materials
 First, you will need to buy a CH341a programmer that is basically a mini programmer that can read and program 24 and 24 series chips, as well as other microcontrollers, EEPROMs, and other memory chips. This is definitely a needed item in order to flash the chip. 
 
@@ -54,7 +53,10 @@ Other download links:
 + [NeoProgrammer](https://www.dwdvb.com/ch341a-usb-mini-programmer-latest-software-download/)
 + [Driver](https://www.wch-ic.com/downloads/CH341PAR_EXE.html)
 
-### Preparation for the flashing is done. You may now move on to the steps to flash your chromebook chip. 
+### Preparation for the flashing is done. You may now move on to the next steps to flash your chromebook chip. 
+
+## Step 2: Making your computer able to flash the chip
+Install the [CH341PAR driver](Driver(https://www.wch-ic.com/downloads/CH341PAR_EXE.html) that was provided on top.
 
 ```bash
 # make a new project directory and jump into it
