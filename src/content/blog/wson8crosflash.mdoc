@@ -68,6 +68,19 @@ Next, attach the chip clip to the programmer. The red ribbon should be connected
 
 ![SOIC-8 chip WINBOND](https://raw.githubusercontent.com/appleflyerv3/appleflyers-blog/main/public/soic-8-chip.jpg "chip p") ![WSON-8 chip WINBOND](https://raw.githubusercontent.com/appleflyerv3/appleflyers-blog/main/public/wson-8-chip.png "chip p")
 
+##Step 4: FLASHING the WSON-8 chip
+This is the most crucial step. Do not mess this up. If you do, you **WILL BRICK** your chromebook. Therefore, I recommend saving a copy of your current ROM. Here are the steps.
+If you need a video on these steps, you may refer to the youtube video provided in credits and go to 3:10 - 4:37.
+
+1. Open NeoProgrammer
+2. On the icons of the executable, find the button that is labeled "Detect IC". You have to hover your mouse over the icons to find the label of the button. Then, check if the program detects your chip. If it does, it should show "Found: 1 Chips". Select that chip and press "Select"
+3. Now, find the button where it says "Read IC', or the button with the chip and a green arrow pointing out. The button is located next to the save button. After reading the chip, press the save button and name this file as ChipHEXBackup(name it whatever u want) and save it anywhere on your computer incase anything goes wrong.
+
+Now that you have done these steps, you may now flash the chip.
+1. Find the folder that has a green arrow sticking out of it(this button is next to the save file button). Then, find your ROM file and click open. If you cannot find your ROM, at the bottom right of the window there should be a dropdown menu where you can select the type of file you want. Select "Files (*.*)". You should be able to find your ROM file now.
+2. After you have done all these, we can flash the chip. Find the button with a blue arrow pointing into a chip. Select all the boxes and click the button. There will be a popup window asking for confirmation. Click "Yes" and wait for your chip to be flashed.
+3. You have successfully flashed your chip! Now, disconnect the CH341a from the host machine, and then remove the chip clip. Screw the motherboard back and everything that is meant to be screwed in. Plug your computer into power and press the power button. If everything goes smoothly, you should now have a unenrolled chromebook when you boot up.
+
 ```bash
 # make a new project directory and jump into it
 mkdir my-astro-project && cd $_
