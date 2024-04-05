@@ -21,7 +21,7 @@ category: design
 ________________________________________________________________________________________________________
 Hello! If you are reading this, you probably are interested in flashing the chromebook's chip probably because you want to unenroll it (the main purpose of this guide). I have decided to make this document because I took a really long while just to gather some information on chip flashing and so I have decided to share what I have found as a guide. 
 (personally i feel the pencil bypass is way riskier and requires a shim whereas this method doesn't require a shim and has less risk involved. nevertheless, it is still risky)
-
+________________________________________________________________________________________________________
 ## Necessary Materials and Files
 ### Materials
 First, you will need to buy a CH341a programmer that is basically a mini programmer that can read and program 24 and 24 series chips, as well as other microcontrollers, EEPROMs, and other memory chips. This is definitely a needed item in order to flash the chip. 
@@ -44,6 +44,17 @@ You will need to download
 * Firmware ROM file
 
 First, I will get into downloading the Chromebook ROM file.
+1. Check to see if your device is supported: https://mrchromebox.tech/#devices. If your device is not there, you can't do this chip flash unless you find your own workaround??
+2. Note down your Chromebook codename. Example is "CRAASKBOWL" or "BOBBA360". If you are unsure of your chromebook codename, just note down your board name.
+3. Go to https://github.com/MrChromebox/scripts/blob/master/sources.sh and find your board. Use the search function of your browser to find the ROM. For example, if you know your chromebook codename, just search in the webpage for "your chromebook codename"
+4. Add the prefix "https://mrchromebox.tech/files/firmware/full_rom/" to download the ROM.
+
+Example for the Acer Spin 511 "nissa"(craaskbowl): (the date at the end will change over time) https://mrchromebox.tech/files/firmware/fullrom/coreboot_edk2-craaskbowl-mrchromebox_20240223.rom
+There. You have your ROM file.
+
+Other download links:
+NeoProgrammer https://www.dwdvb.com/ch341a-usb-mini-programmer-latest-software-download/
+Driver https://www.wch-ic.com/downloads/CH341PAR_EXE.html(can we just ignore the fact that the link is chinese ok i couldn't find another driver don't be racist)
 
 ```bash
 # make a new project directory and jump into it
