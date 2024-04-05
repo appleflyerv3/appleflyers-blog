@@ -28,7 +28,7 @@ export const SITE = {
 	githubUrl: "https://github.com/appleflyer",
 	listDrafts: true,
 	image:
-		"https://static.vecteezy.com/system/resources/previews/011/614/725/original/apple-pixel-illustration-of-8-bit-game-assets-vector.jpg",
+		"https://github.com/appleflyerv3/appleflyers-blog/blob/main/public/apple-pixel-illustration-of-8-bit-game-assets-vector.jpg?raw=true",
 	// YT video channel Id (used in media.astro)
 	ytChannelId: "",
 	// Optional, user/author settings (example)
@@ -37,7 +37,7 @@ export const SITE = {
 	// Author: Twitter handler
 	authorTwitter: "appleflyerv2", // Example: FredKSchott
 	// Author: Image external source
-	authorImage: "https://static.vecteezy.com/system/resources/previews/011/614/725/original/apple-pixel-illustration-of-8-bit-game-assets-vector.jpg", // Example: https://pbs.twimg.com/profile_images/1272979356529221632/sxvncugt_400x400.jpg, https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png
+	authorImage: "https://github.com/appleflyerv3/appleflyers-blog/blob/main/public/apple-pixel-illustration-of-8-bit-game-assets-vector.jpg?raw=true", // Example: https://pbs.twimg.com/profile_images/1272979356529221632/sxvncugt_400x400.jpg, https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png
 	// Author: Bio
 	authorBio:
 		"flying apples for a living.",
