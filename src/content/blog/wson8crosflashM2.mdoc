@@ -38,11 +38,6 @@ In short terms, you will need
 * An SOIC-8 chip clip
 * A Linux setup should do as long as either flashrom is available from the distro's software repositories. This guide will use a Ubuntu 23.04 live session booted from USB.
 
-You may need to install the vpd command for this.
-How to install the vpd command:
-```bash
-wget https://mrchromebox.tech/files/util/vpd.tar.gz 1 && tar -zxf vpd.tar.gz
-```
 ### Preparation for the flashing is done. You may now move on to the next steps to flash your chromebook chip. 
 ________________________________________________________________________________________________________
 ## Step 2: Making your computer able to flash the chip
@@ -56,6 +51,12 @@ Install flashrom via apt:
 ```bash
 sudo apt update
 sudo apt install flashrom
+```
+
+Install vpd via tar.
+How to install the vpd command:
+```bash
+wget https://mrchromebox.tech/files/util/vpd.tar.gz 1 && tar -zxf vpd.tar.gz
 ```
 
 ## Step 3: Connecting the computer to your chromebook chip
@@ -110,6 +111,14 @@ Credits:
 + <https://www.youtube.com/watch?v=dceYuO3Mxuk>
 + some help from the SH1mmer discord (<https://discord.gg/bAgNyGpXSx>) and community
 + <https://blog.osu.bio/blog/3-the-tsunami>
+
+# FAQ:
+Why does it give an error when I run vpd?
++  If it gives an error when running vpd, saying:
+  ```bash
+  bash: .: /your/directory/vpd: cannot execute binary file 
+  ```
+  it is because you are on a different architecture that the vpd executable is on. You may need to recompile your own vpd binary or emulate it on your computer. I will not go into how to do either as it makes the blog too long.
 
 *guide v2.2*
 
