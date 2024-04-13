@@ -33,7 +33,7 @@ export const SITE = {
 	ytChannelId: "",
 	// Optional, user/author settings (example)
 	// Author: name
-	author: "appleflyer", // Example: Fred K. Schott
+	author: "appleflyerv3", // Example: Fred K. Schott
 	// Author: Twitter handler
 	authorTwitter: "appleflyerv2", // Example: FredKSchott
 	// Author: Image external source
